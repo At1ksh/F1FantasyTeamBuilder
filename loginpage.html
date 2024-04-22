@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="f1logo-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Fantasy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('f1bgblur.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-family: 'Bangers', cursive; 
+            color:orangered;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000000; 
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 24px;
+            background-color:orangered; 
+            color: black; 
+            border: 2px solid orangered; 
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+            animation: pulse 1s infinite alternate; 
+        }
+
+        button:hover {
+            background-color: #ff3333;
+            border-color: #ff3333; 
+        }
+
+        @keyframes pulse {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size:136px">F1 Fantasy</h1>
+    <button onclick="window.location.href='FrontPage.htm'">Let's Begin</button> <!-- Updated redirect URL -->
+</body>
+</html>

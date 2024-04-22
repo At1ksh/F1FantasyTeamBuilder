@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="f1logo-removebg-preview.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Fantasy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  <div class="container">
+    <div class="driver-selection">
+      <h2 style="color:black">Choose Drivers</h2>
+      <div class="custom-dropdown">
+        <div class="selected-driver">
+          <span>Select a driver</span>
+          <ul class="dropdown-options">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="selected-drivers">
+      <h2>Selected Drivers</h2>
+      <div id="selected-drivers-container">
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button class="reset-button">Reset</button>
+    <button class="submit-button" >Submit</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
